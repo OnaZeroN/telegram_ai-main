@@ -6,7 +6,6 @@ from typing import Optional, Union
 MAX_RESPONSE_LENGTH = 4096
 STREAM_CHAR_LENGTH = 100
 
-
 def send_response(bot: telebot.TeleBot,
                   user_id: int,
                   user_message: str,
